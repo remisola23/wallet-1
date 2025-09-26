@@ -1,8 +1,16 @@
 {
-  "name": "cloudwaitress-wallet",
+  "name": "waitress-wallet",
   "version": "1.0.0",
-  "main": "api/wallet.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"          // <-- ADD THIS
+  },
   "dependencies": {
-    "axios": "^1.7.2"
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "node-fetch": "^3.3.1"
   }
 }
